@@ -15,15 +15,15 @@
   border-radius: 6px;
 }
 .btn-primary:hover {
- cursor: pointer;
- background-color: rgb(255, 0, 0);
- box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+  cursor: pointer;
+  background-color: rgb(255, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 /* This is header part styling */
 header {
   background-color: rgba(229, 84, 200, 0.1);
-  height:auto;
-  margin-bottom: 100px ;
+  height: auto;
+  margin-bottom: 100px;
 }
 .header-container {
   display: flex;
@@ -31,9 +31,9 @@ header {
   align-items: center;
   padding-top: 60px;
 }
-.header-text{
-    width:38%;
-    padding-left: 50px;
+.header-text {
+  width: 38%;
+  padding-left: 50px;
 }
 .header-headings {
   color: #272727;
@@ -51,4 +51,59 @@ header {
   width: 500px;
   height: 600px;
 }
-/* This is section no one */
+/* This is number one section */
+/* Part one */
+.featured-text {
+  text-align: center;
+}
+.featured-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+.featured-info {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+.flower-tree-boxes {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+.flower-tree-container{
+    padding: 10px 140px 10px 140px;
+}
+.flower-tree-1 {
+  width: 340px;
+  height: 400px;
+  background-color: rgba(210, 127, 244, 0.5);
+  padding: 70px 40px 0 40px;
+  border-radius: 50% 50% 0 0;
+}
+.flower-tree-2 {
+  width: 340px;
+  height: 400px;
+  background-color: rgba(104, 216, 231, 0.5);
+  padding: 70px 40px 30px 40px;
+  border-radius: 50% 50% 0 0;
+}
+.flower-tree-3 {
+  width: 340px;
+  height: 400px;
+  background-color: rgba(145, 234, 118, 0.51);
+  padding: 70px 40px 0 40px;
+  border-radius: 50% 50% 0 0;
+}
+.flower-tree-name {
+  text-align: center;
+  padding-top: 20px;
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
