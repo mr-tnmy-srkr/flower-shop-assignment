@@ -23,7 +23,7 @@
 header {
   background-color: rgba(229, 84, 200, 0.1);
   height: auto;
-  margin-bottom: 100px;
+  margin-bottom:60px;
 }
 .header-container {
   display: flex;
@@ -72,10 +72,10 @@ header {
 .flower-tree-boxes {
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 50px;
+  padding-bottom: 35px;
 }
-.flower-tree-container{
-    padding: 10px 140px 10px 140px;
+.flower-tree-container {
+  padding: 10px 140px 10px 140px;
 }
 .flower-tree-1 {
   width: 340px;
@@ -100,10 +100,32 @@ header {
 }
 .flower-tree-name {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 15px;
   color: #272727;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
-  line-height: 35px;
   text-decoration-line: underline;
+}
+/* part two */
+.service-container {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  background-color: rgba(128, 128, 128, 0.25);
+  padding: 50px;
+  margin: 40px 12px;
+}
+.service-type {
+  width: 100%;
+  text-align: center;
+}
+.service-icon {
+  width: 50px;
+  height: 50px;
+  padding-bottom: 10px;
+}
+.service-text {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 15px;
+  font-weight: 600;
 }
