@@ -140,7 +140,6 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* border-radius: 10px; */
   background-color: rgba(229, 84, 200, 0.1);
   padding: 50px ;
   margin: 50px 0;
@@ -153,7 +152,6 @@ header {
 .social-network-container{
   margin: 30px 0 50px 0;
 }
-
 .instagram{
   text-align: center;
 }
@@ -165,28 +163,36 @@ header {
   height: 300px;
   margin: 8px;
 }
-/* Part two */
 .subscribe-container{
-  margin: 0 145px;
-}
-.sub-container{
   background-image: url(./assets/Rectangle\ 9.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
   height: 60vh;
-  border-radius: 6px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 30px 145px
 }
-/* .sub-text{
-  width: 50%;
-  margin: 0 auto;
-
-} */
-/* .test{
+.deals-title{
+  padding-bottom: 5px;
+}
+.subscribe{
   display: flex;
-justify-content: space-between;
-} */
+  justify-content: center;
+  width: 100%;
+  padding-top: 30px;
+}
+input[type="email"]{
+  /* padding:0 280px 0 20px; */
+  margin-right: 10px;
+  border: none;
+  text-align: left;
+  border-radius: 10px;
+  width: 500px;
+}
 
 /* This is footer section styling */
 .footer-container{
@@ -200,5 +206,34 @@ font-size: 15px;
 font-weight: 400;
 display: block;
 margin-top: 30px ;
-/* border:1px solid white */
+}
+/* ............................. */
+.floral-container{
+  text-align: center;
+  background-color: rgba(229, 84, 200, 0.1);
+}
+.floral-boxes-1{
+  display: flex;
+  justify-content:space-evenly;
+  /* gap: 20px; */
+  
+  
+}
+.floral-boxes-2{
+  display: flex;
+  justify-content:space-evenly;
+  
+}
+.floral-box{
+  height: 400px;
+  width: 440px;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 4px 4px 8px gray;
+}
+.floral-img{
+ width: 440px;
+ height: 250px;
+ border-radius: 10px 10px 0  0;
 }
