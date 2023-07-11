@@ -19,6 +19,19 @@
   background-color: rgb(255, 0, 0);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.primary-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+.primary-para {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
 /* This is header part styling */
 header {
   background-color: rgba(229, 84, 200, 0.1);
@@ -56,19 +69,7 @@ header {
 .featured-text {
   text-align: center;
 }
-.featured-title {
-  color: #272727;
-  font-size: 40px;
-  font-weight: 800;
-  padding-bottom: 15px;
-}
-.featured-info {
-  color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  padding-bottom: 20px;
-}
+
 .flower-tree-boxes {
   display: flex;
   justify-content: space-evenly;
@@ -137,6 +138,7 @@ header {
   /* border-radius: 10px; */
   background-color: rgba(229, 84, 200, 0.1);
   padding: 50px ;
+  margin: 50px 0;
 }
 .hot-deal{
   text-align: center;
@@ -155,4 +157,21 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px;
 padding: 10px 0 20px 0;
+} 
+/* This is third section */
+/* first part  */
+.social-network-container{
+  margin-top: 30px;
+}
+
+.instagram{
+  text-align: center;
+}
+.instagram-image{
+  margin: 20px 0 50px 0;
+}
+.instagram-img{
+  width: 250px;
+  height: 300px;
+  margin: 8px;
 }
