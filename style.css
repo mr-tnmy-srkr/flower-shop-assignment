@@ -136,7 +136,7 @@ header {
   font-weight: 600;
 }
 /* This is second section */
-.deal-container {
+.hot-deal-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -146,6 +146,9 @@ header {
 }
 .hot-deal {
   text-align: center;
+}
+.hot-btn{
+  margin-top: 25px;
 }
 /* This is extra section */
 .gift-boxes {
@@ -255,7 +258,6 @@ header {
   padding-top: 30px;
 }
 input[type="email"] {
-  /* padding:0 280px 0 20px; */
   margin-right: 10px;
   border: none;
   text-align: left;
