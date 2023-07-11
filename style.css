@@ -31,12 +31,12 @@
   font-weight: 400;
   line-height: 30px;
 }
-.red-font{
+.red-font {
   color: red;
- }
- .white-font{
+}
+.white-font {
   color: #fff;
- }
+}
 /* This is header section styling */
 header {
   background-color: rgba(229, 84, 200, 0.1);
@@ -136,56 +136,56 @@ header {
   font-weight: 600;
 }
 /* This is second section */
-.deal-container{
+.deal-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: rgba(229, 84, 200, 0.1);
-  padding: 50px ;
+  padding: 50px;
   margin: 50px 0;
 }
-.hot-deal{
+.hot-deal {
   text-align: center;
 }
 /* This is third section */
 /* Part one  */
-.social-network-container{
+.social-network-container {
   margin: 30px 0 50px 0;
 }
-.instagram{
+.instagram {
   text-align: center;
 }
-.instagram-image{
+.instagram-image {
   margin: 20px 0 50px 0;
 }
-.instagram-img{
+.instagram-img {
   width: 250px;
   height: 300px;
   margin: 8px;
 }
-.subscribe-container{
+.subscribe-container {
   background-image: url(./assets/Rectangle\ 9.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: contain;
   height: 60vh;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 30px 145px
+  margin: 30px 145px;
 }
-.deals-title{
+.deals-title {
   padding-bottom: 5px;
 }
-.subscribe{
+.subscribe {
   display: flex;
   justify-content: center;
   width: 100%;
   padding-top: 30px;
 }
-input[type="email"]{
+input[type="email"] {
   /* padding:0 280px 0 20px; */
   margin-right: 10px;
   border: none;
@@ -195,45 +195,70 @@ input[type="email"]{
 }
 
 /* This is footer section styling */
-.footer-container{
+.footer-container {
   background-color: #111010;
   text-align: center;
   padding: 60px 0;
 }
-.small-text{
-color: rgba(255, 255, 255, 0.40);
-font-size: 15px;
-font-weight: 400;
-display: block;
-margin-top: 30px ;
+.small-text {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 15px;
+  font-weight: 400;
+  display: block;
+  margin-top: 30px;
 }
 /* ............................. */
-.floral-container{
+.floral-container {
   text-align: center;
   background-color: rgba(229, 84, 200, 0.1);
+  padding: 40px 0;
 }
-.floral-boxes-1{
+.floral-container-boxes{
+  margin-top: 30px;
+}
+.floral-boxes {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   /* gap: 20px; */
-  
-  
 }
-.floral-boxes-2{
+/* .floral-boxes-2 {
   display: flex;
-  justify-content:space-evenly;
-  
-}
-.floral-box{
-  height: 400px;
-  width: 440px;
+  justify-content: space-evenly;
+} */
+.floral-box {
+  width: 312px;
+  height: 312px;
   background-color: white;
   margin-bottom: 20px;
   border-radius: 0 0 10px 10px;
   box-shadow: 4px 4px 8px gray;
+  /* background-image: url(./assets/floral/Rectangle\ 4.png); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  border-radius: 10px ;
 }
-.floral-img{
- width: 440px;
- height: 250px;
- border-radius: 10px 10px 0  0;
+.first-box {
+  background-image: url(./assets/floral/Rectangle\ 4.png);
+}
+.second-box {
+  background-image: url(./assets/floral/Rectangle\ 5.png);
+}
+.third-box {
+  background-image: url(./assets/floral/Rectangle\ 6.png);
+}
+.fourth-box {
+  background-image: url(./assets/floral/Rectangle\ 7.png);
+}
+/* .floral-img {
+  border-radius: 10px 10px 0 0;
+} */
+.float {
+  background-color: #fff;
+  width: 80%;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
 }
