@@ -78,7 +78,7 @@ header {
 .flower-tree-boxes {
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 35px;
+  padding: 35px 0;
 }
 .flower-tree-container {
   padding: 10px 120px 10px 120px;
@@ -148,12 +148,32 @@ header {
   text-align: center;
 }
 /* This is extra section */
+.gift-boxes {
+  text-align: center;
+}
+.gift-box-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 80px;
+}
+.gift-box {
+  background-color: #31d7d4;
+  padding: 25px 25px 0 25px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 30px 30px rgba(133, 226, 223, 0.44);
+  margin-top: 80px;
+}
+.gift {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+}
 .floral-container {
   text-align: center;
   background-color: rgba(229, 84, 200, 0.1);
   padding: 40px 0;
 }
-.floral-container-boxes{
+.floral-container-boxes {
   margin-top: 30px;
 }
 .floral-boxes {
@@ -171,7 +191,7 @@ header {
   background-position: center;
   background-size: contain;
   position: relative;
-  border-radius: 10px ;
+  border-radius: 10px;
 }
 .first-box {
   background-image: url(./assets/floral/Rectangle\ 4.png);
@@ -256,4 +276,3 @@ input[type="email"] {
   display: block;
   margin-top: 30px;
 }
-
