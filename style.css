@@ -30,9 +30,14 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  padding-bottom: 20px;
 }
-/* This is header part styling */
+.red-font{
+  color: red;
+ }
+ .white-font{
+  color: #fff;
+ }
+/* This is header section styling */
 header {
   background-color: rgba(229, 84, 200, 0.1);
   height: auto;
@@ -143,9 +148,6 @@ header {
 .hot-deal{
   text-align: center;
 }
-.red-font{
- color: #E55473;
-}
 /* This is third section */
 /* Part one  */
 .social-network-container{
@@ -185,3 +187,18 @@ header {
   display: flex;
 justify-content: space-between;
 } */
+
+/* This is footer section styling */
+.footer-container{
+  background-color: #111010;
+  text-align: center;
+  padding: 60px 0;
+}
+.small-text{
+color: rgba(255, 255, 255, 0.40);
+font-size: 15px;
+font-weight: 400;
+display: block;
+margin-top: 30px ;
+/* border:1px solid white */
+}
