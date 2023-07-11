@@ -147,6 +147,55 @@ header {
 .hot-deal {
   text-align: center;
 }
+/* This is extra section */
+.floral-container {
+  text-align: center;
+  background-color: rgba(229, 84, 200, 0.1);
+  padding: 40px 0;
+}
+.floral-container-boxes{
+  margin-top: 30px;
+}
+.floral-boxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+.floral-box {
+  width: 312px;
+  height: 312px;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 4px 4px 8px gray;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  border-radius: 10px ;
+}
+.first-box {
+  background-image: url(./assets/floral/Rectangle\ 4.png);
+}
+.second-box {
+  background-image: url(./assets/floral/Rectangle\ 5.png);
+}
+.third-box {
+  background-image: url(./assets/floral/Rectangle\ 6.png);
+}
+.fourth-box {
+  background-image: url(./assets/floral/Rectangle\ 7.png);
+}
+.float {
+  background-color: #fff;
+  width: 80%;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px #f8a100;
+}
+
 /* This is third section */
 /* Part one  */
 .social-network-container {
@@ -207,58 +256,4 @@ input[type="email"] {
   display: block;
   margin-top: 30px;
 }
-/* ............................. */
-.floral-container {
-  text-align: center;
-  background-color: rgba(229, 84, 200, 0.1);
-  padding: 40px 0;
-}
-.floral-container-boxes{
-  margin-top: 30px;
-}
-.floral-boxes {
-  display: flex;
-  justify-content: space-evenly;
-  /* gap: 20px; */
-}
-/* .floral-boxes-2 {
-  display: flex;
-  justify-content: space-evenly;
-} */
-.floral-box {
-  width: 312px;
-  height: 312px;
-  background-color: white;
-  margin-bottom: 20px;
-  border-radius: 0 0 10px 10px;
-  box-shadow: 4px 4px 8px gray;
-  /* background-image: url(./assets/floral/Rectangle\ 4.png); */
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-  border-radius: 10px ;
-}
-.first-box {
-  background-image: url(./assets/floral/Rectangle\ 4.png);
-}
-.second-box {
-  background-image: url(./assets/floral/Rectangle\ 5.png);
-}
-.third-box {
-  background-image: url(./assets/floral/Rectangle\ 6.png);
-}
-.fourth-box {
-  background-image: url(./assets/floral/Rectangle\ 7.png);
-}
-/* .floral-img {
-  border-radius: 10px 10px 0 0;
-} */
-.float {
-  background-color: #fff;
-  width: 80%;
-  position: absolute;
-  top: 85%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 10px;
-}
+
