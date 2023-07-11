@@ -263,6 +263,7 @@ input[type="email"] {
   text-align: left;
   border-radius: 10px;
   width: 500px;
+  padding-left: 20px;
 }
 
 /* This is footer section styling */
